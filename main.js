@@ -114,7 +114,6 @@ const translations = {
     s07Title: 'Built in Ostrava. Not in Silicon Valley.',
     s07P1: 'I\'m not a PhD. I can\'t code. I\'m a systems architect from a Czech village of 200 people. 30 years in business. I started building AI apps and hit the same wall every developer hits: who pays for the inference?',
     s07P2: 'Nobody had an answer. So I built one. Three US patents pending. Working prototype. And a deep conviction that if AI is going to be for everyone, someone needs to build the boring part — the billing.',
-    s07P3: 'I build the plumbing. And the plumbing works.',
     usPatentPending: '3× US Patent Pending',
 
     tocLabel: 'Pages',
@@ -243,7 +242,6 @@ const translations = {
     s07Title: 'Postaveno v Ostravě. Ne v Silicon Valley.',
     s07P1: 'Nejsem PhD. Neumím programovat. Jsem systémový architekt z české vesnice s 200 lidmi. 30 let v byznysu. Začal jsem stavět AI appky a narazil na stejnou zeď jako každý developer: kdo platí za inference?',
     s07P2: 'Nikdo neměl odpověď. Tak jsem ji postavil. Tři US patenty pending. Funkční prototyp. A hluboké přesvědčení, že pokud má být AI pro všechny, někdo musí postavit tu nudnou část — billing.',
-    s07P3: 'Stavím instalatérku. A instalatérka funguje.',
     usPatentPending: '3× US Patent Pending',
 
     tocLabel: 'Stránky',
