@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
 Sitemap: https://www.finsetai.com/sitemap.xml
+Host: https://www.finsetai.com
+
+# AI crawler discovery
+Allow: /llms.txt
