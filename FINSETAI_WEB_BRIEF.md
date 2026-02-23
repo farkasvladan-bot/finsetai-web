@@ -1,0 +1,1 @@
+Brief uložen - viz stažený soubor z Claude outputs.

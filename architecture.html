@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FinSetAI — Not a payment gateway. A settlement layer for AI. Atomic 4-party protocol with developer margins and audit trail.">
+  <meta name="theme-color" content="#d6dde5">
+  <title>FinSetAI — Architecture + How It Works</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="FinSetAI — Architecture + How It Works">
+  <meta property="og:description" content="Not a payment gateway. A settlement layer for AI. Atomic, 4-party, with developer margins built in.">
+  <meta property="og:image" content="https://www.finsetai.com/loga/finsetai.png">
+  <meta property="og:url" content="https://www.finsetai.com/architecture.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.finsetai.com/architecture.html">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-left">
+      <a href="index.html" class="logo"><img src="loga/finsetai-icon.png" alt="FinSetAI logo"><span class="logo-text">FinSetAI</span></a>
+      <div class="main-nav">
+        <a class="main-nav-link" href="index.html">Home</a>
+        <a class="main-nav-link" href="problem.html">Problem + Cases</a>
+        <a class="main-nav-link active" href="architecture.html">Architecture</a>
+        <a class="main-nav-link" href="roadmap.html">Roadmap + EU AI Act</a>
+        <a class="main-nav-link" href="who.html">Who</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn" data-lang="cs">CS</button>
+        <button class="lang-btn active" data-lang="en">EN</button>
+      </div>
+      <div class="patent-badge"><span class="patent-dot"></span><span data-i18n="patentBadge">Patent Pending</span></div>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+  <div class="page-hero-bg">
+    <img src="loga/finsetai.jpg" alt="" aria-hidden="true">
+    <div class="page-hero-overlay"></div>
+  </div>
+
+  <section class="section" id="philosophy" style="padding-top: 140px;">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s02Label">02 — The Gap</div>
+      <h2 class="reveal" data-i18n="s02Title">Not a payment gateway. A settlement layer for AI.</h2>
+      <p class="reveal" data-i18n="s02P1">Stripe handles payments. OpenAI handles inference. Nobody handles what happens in between — the moment a user's money becomes a developer's margin becomes a provider's revenue.</p>
+      <p class="reveal" data-i18n="s02P2">That's the gap. <strong>That's what we built.</strong></p>
+      <p class="reveal" data-i18n="s02P3">Not because it's sexy. It isn't. Billing infrastructure is the most boring, most invisible, and most critical layer in any economy. It was true for banking in 1472. It's true for AI now.</p>
+
+      <blockquote class="reveal">
+        <p data-i18n="s02Quote">User pays → Developer earns margin → Provider gets paid → Audit trail recorded. All in one atomic operation. All or nothing. That's the protocol.</p>
+        <p class="quote-source" data-i18n="s02QuoteSource">— Core design principle</p>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section" id="not-us">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s02bLabel">02b — What we're not</div>
+      <p class="not-section reveal" data-i18n="s02bText">We're not Stripe. We're not a crypto project. We're not another API wrapper. We don't process payments — we settle AI transactions. Atomically. With four parties. In milliseconds.</p>
+    </div>
+  </section>
+
+  <section class="section" id="what-we-build">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s03Label">03 — Five principles</div>
+      <h2 class="reveal" data-i18n="s03Title">The rules are simple.</h2>
+
+      <div class="principles">
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">01</span>
+            <span data-i18n="pr01Title">Atomic. All or nothing.</span>
+          </div>
+          <p data-i18n="pr01Text">User pays, developer earns, provider gets paid, audit logged — all in one operation, or none of it happens. No intermediate states. No "oops." No reconciliation nightmares.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">02</span>
+            <span data-i18n="pr02Title">Four-party. By design.</span>
+          </div>
+          <p data-i18n="pr02Text">User → App → Provider → FinSetAI. Everyone has skin in the game. Everyone sees their part. Not bilateral. Not a middleman. A settlement protocol.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">03</span>
+            <span data-i18n="pr03Title">Prepaid. Cost cap built in.</span>
+          </div>
+          <p data-i18n="pr03Text">User's bank account is never connected to variable AI costs. Wallet runs out → transaction stops. No surprises. No runaway bills. The killer security feature nobody else has.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">04</span>
+            <span data-i18n="pr04Title">Transparent. Every token tracked.</span>
+          </div>
+          <p data-i18n="pr04Text">Hash Ledger records every settlement. Immutable audit trail. Who asked, what model, what it cost, who earned what. EU AI Act compliance by architecture, not by patch.</p>
+        </div>
+        <div class="principle reveal">
+          <div class="principle-header">
+            <span class="principle-number">05</span>
+            <span data-i18n="pr05Title">Developer-first. You set the margin.</span>
+          </div>
+          <p data-i18n="pr05Text">0–100% markup. Fixed price mode. Your app, your economics. We handle the plumbing — settlement, wallets, audit trail. You handle the product.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="origin">
+    <div class="section-content">
+      <div class="section-label reveal" data-i18n="s03bLabel">03b — How it started</div>
+      <p class="reveal" data-i18n="s03bP1">We weren't building a settlement protocol. We were building AI apps for real estate brokers. And we couldn't figure out how to bill users for AI they consumed. Nobody could.</p>
+      <p class="reveal" data-i18n="s03bP2">So we built the billing layer first. And realized it was the product.</p>
+      <p class="reveal" data-i18n="s03bP3">Nobody in San Francisco was looking for this from the bottom up. Everyone was solving the trillion-dollar problem top-down. McKinsey reports. Armies of analysts. Result? Paralysis. We started with one invoice. And ended with a protocol.</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="section footer" id="contact">
+    <p class="footer-cta reveal" data-i18n="footerCta">If you're building AI apps and billing is the part you dread — we should talk.</p>
+    <div class="footer-links reveal">
+      <a href="mailto:farky@farky.tech" class="footer-link">farky@farky.tech</a>
+      <a href="https://www.linkedin.com/in/vladanfarkas/" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+    </div>
+    <p class="footer-quote reveal"><span data-i18n="footerQuote">"Developers build the future. We handle the bill."</span> — <a href="https://sumofhuman.com" target="_blank" rel="noopener" data-i18n="footerQuoteSource">sumofhuman.com</a></p>
+    <p class="footer-copy" data-i18n="footerCopy">© 2026 FinSetAI — a farky.tech project | Ostrava, Czech Republic | US Patent Pending</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# FinSetAI — AI Billing & Settlement Infrastructure
+
+## What is FinSetAI?
+FinSetAI is a billing and settlement infrastructure for AI applications. It solves the fundamental problem that developers can't easily bill users for AI inference costs.
+
+## Core Innovation: Atomic 4-Party Settlement
+Every AI transaction involves four parties: User, Developer/App, AI Provider, and FinSetAI. Our protocol settles all four simultaneously — atomically — in one operation. All or nothing.
+
+## Key Features
+- **Prepaid Wallets**: Users fund wallets with a cost cap. Bank account never connected to variable AI costs.
+- **Universal Output Unit (UOU)**: $0.001 per unit. Normalizes pricing across all AI models (GPT-4, Claude, Whisper, Gemini).
+- **Developer Margins**: 0–100% markup. Fixed price mode available. Your app, your economics.
+- **Hash Ledger**: Immutable audit trail for every transaction. EU AI Act compliance by architecture.
+- **Trust Fund**: 5% reserve for dispute resolution and user protection.
+
+## Patents
+Three US provisional patents filed:
+- FinSetAI: Atomic settlement protocol (US 63/946,883)
+- DEVMON: Developer monetization
+- NHAND: N-party machine economy applications
+
+## Contact
+- Email: farky@farky.tech
+- LinkedIn: https://www.linkedin.com/in/vladanfarkas/
+- Website: https://www.finsetai.com
+
+## Related Projects
+- Sum of Human: https://sumofhuman.com
+- Agent AI Bank: https://www.agentaibank.com
+- Farky Tech: https://farky.tech
